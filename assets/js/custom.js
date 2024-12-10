@@ -1,3 +1,7 @@
+AOS.init({
+    duration: 1200,
+});
+
 window.addEventListener("scroll", function() {
     const navbar = document.querySelector(".navbar");
     const logo = document.querySelector(".navbar-brand img");

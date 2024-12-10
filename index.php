@@ -7,6 +7,7 @@
     <title>CMWL - Weight Loss</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel='stylesheet' href='assets/css/aos.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
@@ -87,12 +88,12 @@
         </nav>
 
         <!-- Hero Content -->
-        <div class="container-fluid text-center text-md-start text-light hero-content ">
+        <div class="container-fluid text-md-start text-light hero-content ">
             <div class="row align-items-center pt-10rem">
-                <div class="col-md-4 text-center">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="800">
                     <img src="assets/img/woman.png" alt="Model" class="img-fluid hidden-sm">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8" data-aos="fade-left" data-aos-duration="800">
                     <p class="stars-dv">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
@@ -111,12 +112,12 @@
                         <li>Safe, tested, and doctor supported</li>
                     </ul>
                     </p>
-                    <div class="mt-4">
+                    <div class="mt10">
                         <div class="butns">
                             <div class="first">
                                 <a href="#" class="btn">Book a Free Consultation</a>
                             </div>
-                            <div class="second mt-4">
+                            <div class="second mt10">
                                 <a href="#" class="btn">See Available Plans</a>
                             </div>
                         </div>
@@ -133,115 +134,131 @@
     <section class="second padding">
         <div class="container mt-5">
             <div class="row">
-                <div class="heading">
+                <div class="heading" data-aos="fade-down" data-aos-duration="800">
                     <h4>Your GLP-1 Medication Plan Options</h4>
                     <p>Home-delivered weight loss medication Virtual physican support</p>
                 </div>
             </div>
             <div class="row">
                 <!-- First Card -->
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="d-flex align-items-center">
+                <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-duration="800">
+                    <div class="card shadow-sm">
+                        <div class="card-inner">
                             <div class="p-3 flex-grow-1">
-                                <h5 class="card-title">Wegovy® CMWL Weight Loss Plan</h5>
-                                <p class="card-text">$1559/month</p>
-                                <a href="#0" class="btn">Start Now</a>
+                                <h5 class="card-title">Semaglutide CMWL Weight Loss Plan</h5>
+                                <p class="card-text">$295/month</p>
+                                <div class="card-btm">
+                                    <p class="w40pr m8topbtm">New Patients Get 1 Month FREE when you choose the 90-day starter plan</p>
+                                    <a href="#0" class="btn">Start 90 Days</a>
+                                </div>
+                                <div class="card-btm">
+                                    <p class="w40pr m8topbtm">or choose month-to-month</p>
+                                    <a href="#0" class="btn">Start Monthly</a>
+                                </div>
                             </div>
                             <div class="p-3">
-                                <img src="assets/img/prd-1.png" class="img-fluid" alt="Wegovy">
+                                <img src="assets/img/prd-1.webp" class="img-fluid" alt="Semaglutide">
                             </div>
                         </div>
                     </div>
                 </div>
-
+            
                 <!-- Second Card -->
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="d-flex align-items-center">
+                <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-duration="800">
+                    <div class="card shadow-sm">
+                        <div class="card-inner"">
                             <div class="p-3 flex-grow-1">
-                                <h5 class="card-title">Ozempic® CMWL Weight Loss Plan</h5>
-                                <p class="card-text">$1099/month</p>
-                                <a href="#0" class="btn">Start Now</a>
+                                <h5 class="card-title">Tirzepatide CMWL Weight Loss Plan</h5>
+                                <p class="card-text">$429/month</p>
+                                <div class="card-btm">
+                                    <p class="w40pr m1remtopbtm">New Patients Get 1 Month FREE when you choose the 90-day starter plan</p>
+                                    <a href="#0" class="btn">Start 90 Days</a>
+                                </div>
+                                <div class="card-btm">
+                                    <p class="w40pr m1remtopbtm">or choose month-to-month</p>
+                                    <a href="#0" class="btn">Start Monthly</a>
+                                </div>
                             </div>
                             <div class="p-3">
-                                <img src="assets/img/prd-1.png" class="img-fluid" alt="Wegovy">
+                                <img src="assets/img/prd-1.webp" class="img-fluid" alt="Tirzepatide">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <!-- First Card -->
+                <!-- Third Card -->
                 <div class="col-md-6 mb-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="d-flex align-items-center">
+                    <div class="card shadow-sm" data-aos="fade-right" data-aos-duration="800">
+                        <div class="card-inner"">
                             <div class="p-3 flex-grow-1">
                                 <h5 class="card-title">Wegovy® CMWL Weight Loss Plan</h5>
                                 <p class="card-text">$1559/month</p>
                                 <a href="#0" class="btn">Start Now</a>
                             </div>
                             <div class="p-3">
-                                <img src="assets/img/prd-1.png" class="img-fluid" alt="Wegovy">
+                                <img src="assets/img/prd-2.png" class="img-fluid" alt="Wegovy">
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Second Card -->
+            
+                <!-- Fourth Card -->
                 <div class="col-md-6 mb-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="d-flex align-items-center">
+                    <div class="card shadow-sm" data-aos="fade-left" data-aos-duration="800">
+                        <div class="card-inner"">
                             <div class="p-3 flex-grow-1">
                                 <h5 class="card-title">Ozempic® CMWL Weight Loss Plan</h5>
                                 <p class="card-text">$1099/month</p>
                                 <a href="#0" class="btn">Start Now</a>
                             </div>
                             <div class="p-3">
-                                <img src="assets/img/prd-1.png" class="img-fluid" alt="Wegovy">
+                                <img src="assets/img/prd-3.webp" class="img-fluid" alt="Ozempic">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <!-- First Card -->
+                <!-- Fifth Card -->
                 <div class="col-md-6 mb-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="d-flex align-items-center">
+                    <div class="card shadow-sm" data-aos="fade-right" data-aos-duration="800">
+                        <div class="card-inner"">
                             <div class="p-3 flex-grow-1">
-                                <h5 class="card-title">Wegovy® CMWL Weight Loss Plan</h5>
-                                <p class="card-text">$1559/month</p>
+                                <h5 class="card-title">Mounjaro™ CMWL Weight Loss Plan</h5>
+                                <p class="card-text">$1299/month</p>
                                 <a href="#0" class="btn">Start Now</a>
                             </div>
                             <div class="p-3">
-                                <img src="assets/img/prd-1.png" class="img-fluid" alt="Wegovy">
+                                <img src="assets/img/prd-4.webp" class="img-fluid" alt="Mounjaro">
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Second Card -->
+            
+                <!-- Sixth Card -->
                 <div class="col-md-6 mb-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="d-flex align-items-center">
+                    <div class="card shadow-sm" data-aos="fade-left" data-aos-duration="800">
+                        <div class="card-inner"">
                             <div class="p-3 flex-grow-1">
-                                <h5 class="card-title">Ozempic® CMWL Weight Loss Plan</h5>
-                                <p class="card-text">$1099/month</p>
+                                <h5 class="card-title">Zepbound® CMWL Weight Loss Plan</h5>
+                                <p class="card-text">$1199/month</p>
                                 <a href="#0" class="btn">Start Now</a>
                             </div>
                             <div class="p-3">
-                                <img src="assets/img/prd-1.png" class="img-fluid" alt="Wegovy">
+                                <img src="assets/img/prd-5.webp" class="img-fluid" alt="Zepbound">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div>
 
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
     <script src="assets/js/custom.js"></script>
 </body>
 
