@@ -1,10 +1,13 @@
 @import url('https://fonts.cdnfonts.com/css/tisa-sans-pro');
+
 * {
     font-family: 'Tisa Sans Pro', sans-serif;
 }
+
 html {
     overflow-x: hidden;
 }
+
 /* General styles */
 body {
     margin: 0;
@@ -12,6 +15,7 @@ body {
     overflow-x: hidden;
     color: #000000;
 }
+
 /* p,
 h1,
 h2,
@@ -24,25 +28,30 @@ h4{
     background: transparent;
     z-index: 10;
 }
+
 .navbar-brand img {
     width: 15rem;
 }
+
 .nav-link {
     font-size: 1rem;
     margin: 0 15px;
     transition: color 0.3s;
 }
+
 .nav-link:hover {
-    color: #000000;
+    color: #09B5AB;
 }
+
 .hero-section {
-    background: url('../img/background.png') no-repeat center center/cover;
+    background: url('../img/background.png') no-repeat center center/100% 100%;
     height: 100vh;
     color: #fff;
     display: flex;
     align-items: center;
     position: relative;
 }
+
 .hero-section::before {
     content: '';
     position: absolute;
@@ -52,45 +61,55 @@ h4{
     height: 100%;
     z-index: 1;
 }
+
 .hero-content {
     position: relative;
     z-index: 2;
     padding-left: 100px;
     padding-right: 100px;
 }
+
 .hero-content h1 {
     color: #3b3a3a;
-    font-size: 80px;
+    font-size: 70px;
     margin-bottom: 20px;
 }
+
 .hero-content ul li {
     color: #000000;
     font-size: 1.1rem;
     margin-bottom: 10px;
 }
+
 .hero-content .btn {
     margin-right: 15px;
 }
+
 .hero-content img {
     width: 100%;
     max-width: 91%;
 }
+
 .pt-10rem {
     padding-top: 10rem;
 }
+
 .fa-star {
     color: #FF9529;
 }
+
 .nav-link {
     color: #000000;
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
 }
+
 .stars-dv span {
     font-size: 24px;
     color: #3b3a3a;
 }
+
 .rights {
     display: flex;
     flex-direction: column;
@@ -99,33 +118,40 @@ h4{
     justify-content: center;
     align-items: center;
 }
+
 .rights a {
     text-decoration: none;
 }
+
 .rights .r2 .first {
     color: #6F9749;
 }
+
 .rights .r2 .second {
     padding-left: 10px;
     color: #000000;
 }
+
 .butns .first .btn {
     background-color: #000000;
     padding: 14px 40px;
     border-radius: 50px;
     color: #ffffff;
 }
+
 .butns .second .btn {
     background-color: #09B5AB;
     padding: 14px 60px;
     border-radius: 50px;
     color: #ffffff;
 }
+
 .elem-header-right {
     position: relative;
     width: 100%;
     height: 100%;
 }
+
 .elem-header-right::before {
     content: "";
     background: url('../img/header-right-bottom.png') center center / auto no-repeat;
@@ -136,6 +162,7 @@ h4{
     width: 34%;
     height: 30rem;
 }
+
 .nbtop {
     display: flex;
     flex-direction: row;
@@ -144,6 +171,7 @@ h4{
     justify-content: center;
     align-items: flex-start;
 }
+
 .nbtop .toplefthead {
     background-color: #6F9749;
     padding: 10px 20px;
@@ -152,6 +180,7 @@ h4{
     left: -12px;
     transition: all 0.3s ease;
 }
+
 .nbtop .toplefthead.scrolled {
     padding: 10px 10px;
     background-color: #6F9749;
@@ -159,9 +188,11 @@ h4{
     position: relative;
     left: -12px;
 }
+
 .toplefthead h4.scrolled {
     font-size: 18px;
 }
+
 .toprightico .toplefthead {
     background-color: #122231;
     padding: 10px 20px;
@@ -169,111 +200,151 @@ h4{
     position: relative;
     right: -12px;
 }
+
 .small-svg {
     width: 40px;
     height: 40px;
 }
+
 .rights .r1 {
     padding-bottom: 14px;
 }
+
 .rights .r1 img,
 .rights .r1 svg {
     height: 24px;
 }
+
 .rights .r2 {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
 }
+
 .navbar {
     background: transparent;
     transition: background 0.3s ease;
 }
+
 .navbar.scrolled {
-    background: #ffffff;
+    background: #CBCED0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .navbar-brand img {
     transition: width 0.3s ease;
 }
+
 .toplefthead h4 {
     font-size: 20px;
     text-transform: uppercase;
     margin: 0;
 }
+
 .second .card {
     background-color: #EEEEEE;
     padding: 40px 30px;
 }
+
 .second .card .card-title {
     font-size: 40px;
 }
+
 .second .btn {
     background-color: #212529;
     padding: 14px 40px;
     border-radius: 30px;
     color: #ffffff;
 }
+
 .hero-content .list-unstyled {
     padding-left: 2rem;
     list-style: disc;
 }
+
 .second .heading {
     text-align: center;
 }
+
 .second .heading h4 {
     font-size: 50px;
     padding-bottom: 40px;
 }
+
 .second .heading p {
     font-size: 24px;
     padding-bottom: 40px;
 }
+
 .padding {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .w40pr {
     width: 40%;
 }
+
 .m8topbtm {
     margin: 8px 0;
 }
+
 .card-inner {
     display: flex;
 }
+
 .card-btm {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
 }
+
 .mt10 {
     margin-top: 10px;
 }
+
 @media (min-width: 1366px) and (max-width: 1400px) {
     .hero-content img {
         width: 100%;
         max-width: 91%;
     }
 }
+
 @media (min-width: 1400px) and (max-width: 1440px) {
     .hero-content img {
         width: 100%;
         max-width: 85%;
     }
 }
+
 @media (min-width: 1366px) and (max-width: 1600px) {
+
+    .offset-md-1 {
+        margin-left: 0;
+    }
+
+    .hero-section {
+        background: url(../img/background-new.png) no-repeat center center / cover;
+        height: 100vh;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
     .hero-content h1 {
         color: #3b3a3a;
         font-size: 60px;
         margin-bottom: 20px;
     }
+
     .hero-content ul li {
         color: #000000;
         font-size: 1.1rem;
         margin-bottom: 10px;
     }
+
     /* .hero-content img {
         width: 86%;
     } */
@@ -287,62 +358,83 @@ h4{
         width: 40%;
         height: 30rem;
     }
-    .hero-section {
+
+    /* .hero-section {
         background: url(../img/background.png) no-repeat center center / cover;
         height: 80vh;
         color: #fff;
         display: flex;
         align-items: center;
         position: relative;
-    }
+    } */
     .second .btn {
         background-color: #212529;
         padding: 14px 30px;
         border-radius: 30px;
         color: #ffffff;
     }
+
     /* .hero-content img {
         width: 100%;
     } */
     .w40pr {
         width: 50%;
     }
+
     .second .card .card-title {
         font-size: 30px;
     }
 }
+
 .hidden-md {
     display: none;
 }
+
 .hidden-mdnew {
     display: none;
 }
+
 @media (min-width: 320px) and (max-width: 380px) {
     .navbar-brand img {
         width: 6rem;
     }
+
     .toplefthead h4 {
         font-size: 6px;
         text-transform: uppercase;
         margin: 0;
     }
 }
+
 @media (min-width: 380px) and (max-width: 520px) {
+
+    .hero-section {
+        background: url(../img/background-mob.png) no-repeat center center / cover;
+        height: 100vh;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
     .navbar-brand img {
         width: 8rem;
     }
+
     .toplefthead h4 {
         font-size: 8px;
         text-transform: uppercase;
         margin: 0;
     }
 }
+
 @media (min-width: 320px) and (max-width: 550px) {
     .hero-content ul li {
         color: #000000;
         font-size: 18px;
         margin-bottom: 10px;
     }
+
     .hdr-phone {
         text-decoration: none;
         color: #000000;
@@ -356,13 +448,16 @@ h4{
         font-size: 16px;
         font-weight: 600;
     }
+
     .sm-p-0 {
         padding: 0;
     }
+
     .second .heading h4 {
         font-size: 36px;
         padding-bottom: 20px;
     }
+
     .butns .first .btn {
         background-color: #000000;
         font-size: 12px;
@@ -370,6 +465,7 @@ h4{
         border-radius: 50px;
         color: #ffffff;
     }
+
     .butns .second .btn {
         font-size: 12px;
         background-color: #09B5AB;
@@ -377,9 +473,11 @@ h4{
         border-radius: 50px;
         color: #ffffff;
     }
+
     .image-wrapper {
         width: 90%;
     }
+
     .hdr-btm .butns,
     .hdr-btm .butns .images {
         display: flex;
@@ -388,15 +486,18 @@ h4{
         align-items: flex-end;
         justify-content: center;
     }
+
     .hdr-btm .butns .images {
         margin-top: -30px;
     }
+
     .hdr-btm .butns .images img {
         width: 60%;
         max-width: 100%;
         position: relative;
         top: -16px;
     }
+
     .hdr-btm {
         display: flex;
         flex-direction: row;
@@ -405,35 +506,45 @@ h4{
         justify-content: center;
         align-items: flex-start;
     }
+
     .navbar-toggler {
         padding: 0;
     }
+
     .hero-section {
         height: auto;
     }
+
     .sm-pt-0 {
         padding-top: 0;
     }
+
     .sm-pt6rem {
         padding-top: 6rem;
     }
+
     .nbtop .toplefthead {
         padding: 10px 10px;
         border-radius: 0px 10px 10px 0px;
     }
+
     .navbar-toggler-icon {
         background-image: url('../img/hamburg.png');
     }
+
     .hidden-sm {
         display: none;
     }
+
     .hidden-md {
         display: block;
     }
+
     .card-inner {
         display: flex;
         flex-direction: row-reverse;
     }
+
     .card-btm {
         display: flex;
         align-items: flex-start;
@@ -442,19 +553,23 @@ h4{
         align-content: flex-start;
         flex-wrap: nowrap;
     }
+
     .w40pr {
         width: auto;
     }
+
     .second .btn {
         background-color: #212529;
         padding: 14px 30px;
         border-radius: 30px;
         color: #ffffff;
     }
+
     .navbar {
         background: #CBCED0;
         /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     }
+
     /* .navbar-brand img {
         width: 6rem;
     } */
@@ -466,44 +581,55 @@ h4{
     .navbar-brand {
         padding: 0;
     }
+
     .toprightico .toplefthead {
         display: none;
     }
+
     .rights.mob-custom {
         position: relative;
         top: -20px;
     }
+
     .rights.mob-custom .r1 {
         padding-bottom: 0;
     }
+
     .navbar-toggler {
         /* border: 1px solid #000000; */
     }
+
     .navbar-toggler:focus {
         box-shadow: none;
     }
+
     .navbar-toggler-icon {
         color: #000000;
     }
+
     .navbar-collapse {
         background: rgb(9, 181, 171);
         border-radius: 10px;
         padding: 20px 10px;
         border: 1px solid rgb(0, 0, 0);
     }
+
     .hero-content {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .stars-dv span {
         font-size: 18px;
         color: #3b3a3a;
     }
+
     .hero-content h1 {
         color: #3b3a3a;
         font-size: 32px;
         margin-bottom: 20px;
     }
+
     /* .hero-section {
         height: 80vh;
     } */

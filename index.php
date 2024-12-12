@@ -106,10 +106,10 @@
                     <img src="assets/img/woman.png" alt="Model" class="img-fluid hidden-sm">
                 </div> -->
                 <div class="col-md-4 image-wrapper" data-aos="fade-right" data-aos-duration="800">
-                    <img src="assets/img/woman.png" alt="Model" class="img-fluid hidden-sm">
+                    <!-- <img src="assets/img/woman.png" alt="Model" class="img-fluid hidden-sm"> -->
                 </div>
                 <a class="hdr-phone hidden-md" href="tel:8588004881">858-800-4881</a>
-                <div class="col-md-8" data-aos="fade-left" data-aos-duration="800">
+                <div class="col-md-7 offset-md-1" data-aos="fade-left" data-aos-duration="800">
                     <p class="stars-dv">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
@@ -137,9 +137,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="elem-header-right hidden-sm">
+                    <!-- <div class="elem-header-right hidden-sm">
                         &nbsp;
-                    </div>
+                    </div> -->
                     <div class="hidden-mdnew hdr-btm">
                         <div class="image-wrapper">
                             <img src="assets/img/woman.png" alt="Model" class="img-fluid">
